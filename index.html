@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newman Haas</title>
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body class="position-relative">
+
+    <div class="toggle-btn justify-between">
+        <span class="toggle-misc col justify-between">
+            <span class="misc-bar"></span>
+            <span class="misc-bar"></span>
+            <span class="misc-bar"></span>
+        </span>
+    </div>
+
+    <nav class="navbar-container">
+        <ul class="nav-list col gap-1">
+            <a href="">
+                <li class="nav-link">Home</li>
+            </a>
+            <a href="">
+                <li class="nav-link">About</li>
+            </a>
+            <a href="">
+                <li class="nav-link">Categories</li>
+            </a>
+            <a href="">
+                <li class="nav-link">Shop</li>
+            </a>
+            <a href="">
+                <li class="nav-link">Contact</li>
+            </a>
+        </ul>
+    </nav>
+
+    <section class="hero-container d-grid py-2 bottom-line">
+        <article class="caption col justify-between gap-2" data-aos="fade-right">
+            <div class="row">
+                <span class="ms-auto">
+                    <h2 class="title text-center">Newman/Haas Racing</h2>
+                </span>
+                <span class="ms-auto"><img src="./assets/img/logo/logo.png" alt=""
+                        style="width: 200px; pointer-events: none;   user-select: none; user-drag: none;"></span>
+            </div>
+        </article>
+    </section>
+
+    <section class="about-container">
+        <div class="about-wrapper about-wrapper-start row-auto">
+            <div class="row"><img src="./assets/img/about/damatta-car.png" alt="" style="border-radius: 0 0 3rem 0;"></div>
+            <div class="caption col justify-center">
+                <h2 class="title">Legendary <br>Racing Team</h2>
+            </div>
+        </div>
+        <div class="about-wrapper about-wrapper-end row-auto row-reverse">
+            <div class="row"><img src="./assets/img/about/juqueira-car.webp" alt="" style="border-radius: 0 0 0 3rem;"></div>
+            <div class="caption col justify-center align-end">
+                <h2 class="title text-end">Glory <br>days of winning</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="news-container">
+        <div class="cc-content row">
+            <div class="card card-1 col justify-end wrapper" style="border-radius: 0 0 3rem 0;">
+                <div class="caption col gap-05">
+                    <span class="misc">Categories</span>
+                    <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+            <div class="card card-2 col justify-end wrapper" style="border-radius: 0 0 0 3rem;">
+                <div class="caption col gap-05">
+                    <span class="misc">Categories</span>
+                    <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+        </div>
+        <div class="cc-content cc-content-reverse row">
+            <div class="card card-3 col justify-end wrapper" style="border-radius: 0 0 3rem 0;">
+                <div class="caption col gap-05">
+                    <span class="misc">Categories</span>
+                    <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+            <div class="card card-4 col justify-end wrapper" style="border-radius: 0 0 0 3rem;">
+                <div class="caption col gap-05">
+                    <span class="misc">Categories</span>
+                    <h2 class="title">Lorem ipsum dolor sit amet consectetur.</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner-container bottom-line">
+        <div class="banner-content">
+            <div class="caption col justify-center gap-2">
+                <h2 class="title text-uppercase">Lorem ipsum dolor sit amet </h2>
+                <h3 class="sub-title">Lorem ipsum dolor sit amet consectetur</h3>
+                <a href="" class="btn btn-more mt-2">See More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="media-container">
+        <div class="container caption row justify-center gap-2 col p-4">
+            <h2 class="title text-center">Follow Us</h2>
+            <p class="text text-center">Visit our official social media channels</p>
+            <div class="row justify-center gap-2">
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-container">
+   
+    </section>
+
+    <script>
+        const navToggle = document.querySelector('.toggle-btn')
+        navToggle.addEventListener('click', () => {
+            document.querySelector('.navbar-container').classList.toggle('active')
+            navToggle.classList.toggle('active')
+        });
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "nome": "Crew Firesuit Kmart",
+    "preco": 200,
+    "categoria": "Clothing",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 2,
+    "nome": "Crew Firesuit Mcdonald",
+    "preco": 200,
+    "categoria": "Clothing",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 3,
+    "nome": "T-shirt White Jersey",
+    "preco": 50,
+    "categoria": "Clothing",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 4,
+    "nome": "T-shirt Black Jersey",
+    "preco": 50,
+    "categoria": "Clothing",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 5,
+    "nome": "Decorative Frame",
+    "preco": 30,
+    "categoria": "Home Decor",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 6,
+    "nome": "Decorative Frame (3 frames)",
+    "preco": 50,
+    "categoria": "Home Decor",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 7,
+    "nome": "Decorative Frame (5 frames)",
+    "preco": 70,
+    "categoria": "Home Decor",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 8,
+    "nome": "Coffee Mug Mario Andretti",
+    "preco": 10,
+    "categoria": "Accessories",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 9,
+    "nome": "Coffee Mug Michael Andretti",
+    "preco": 10,
+    "categoria": "Accessories",
+    "imgsrc": "aa"
+  },
+  {
+    "id": 10,
+    "nome": "Coffee Mug Christian Fittipaldi",
+    "preco": 10,
+    "categoria": "Accessories",
+    "imgsrc": "aa"
+  }
+]
